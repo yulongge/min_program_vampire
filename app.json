@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/literature/literature",
+    "pages/television/television",
+    "pages/music/music"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,0 +1,13 @@
+<template name="recommend">
+  <view class="recommend">
+    <navigator class="recommend_item" openType="redirect" url="/pages/literature/literature" hover-class="none">
+    狂躁文学
+    </navigator>
+    <navigator class="recommend_item" openType="redirect" url="/pages/television/television" hover-class="none">
+      暴走影视
+    </navigator>
+    <navigator class="recommend_item" openType="redirect" url="/pages/music/music" hover-class="none">
+      奇葩之歌
+    </navigator>
+  </view>
+</template>

@@ -1,0 +1,21 @@
+.recommend {
+  display: flex;
+  height: 200rpx;
+  line-height: 200rpx;
+  text-align: center;
+  border-top: 1px solid #1AAD19;
+  border-left: 1px solid #1AAD19;
+  border-bottom: 1px solid #1AAD19;
+  margin-top: 10rpx;
+}
+.recommend_item {
+  flex: 1;
+  border-right: 1px solid #1AAD19;
+}
+
+.recommend:last-child {
+  border-right: 1px solid red;
+}
+.recommend_item:last-chid {
+  border-right: 1px solid red;
+}

@@ -1,0 +1,7 @@
+<template name="footer">
+  <view class="footer">
+    <navigator class="footer_item footer_active" openType="redirect" url="/pages/index/index" hover-class="none">
+    Home
+    </navigator>
+  </view>
+</template>

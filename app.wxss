@@ -3,3 +3,4 @@
 .container {
   height: 100%;
 } 
+@import "/pages/common/footer/footer.wxss";

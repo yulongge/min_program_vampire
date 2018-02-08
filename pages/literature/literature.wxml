@@ -1,0 +1,5 @@
+<import src="../common/footer/footer.wxml" />
+<view class="literature">
+  literature
+</view>
+<template is="footer" />

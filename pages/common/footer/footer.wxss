@@ -1,0 +1,18 @@
+.footer {
+  height: 98rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+  text-align: center;
+  line-height: 98rpx;
+  display: flex;
+  border: 1px solid #1AAD19;
+}
+.footer_item {
+  flex: 1;
+  color: #333;
+}
+.footer_active {
+  background-color: #1AAD19;
+  color: #fff;
+}

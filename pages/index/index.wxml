@@ -1,16 +1,13 @@
-<import src="../components/turntable/turntable.wxml" />
+<import src="../common/footer/footer.wxml" />
+<import src="../common/recommend/recommend.wxml" />
 <view class="container">
-  <view class="swiper">
-    <swiper indicator-dots="{{indicatorDots}}"
-      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-      <block wx:for="{{background}}" wx:key="*this">
-        <swiper-item>
-          <view class="swiper-item {{item}}"></view>
-        </swiper-item>
-      </block>
-    </swiper>
-  </view>
+  <vslider class="swiper"></vslider>
+  <template is="recommend" />
   <view class="gskill">
-  
+    <turntable inner-text="GET">
+      
+    </turntable>
   </view>
+
+  <template is="footer" />
 </view>
