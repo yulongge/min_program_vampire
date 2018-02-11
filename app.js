@@ -34,6 +34,42 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    nav: [
+      {
+        id: "001",
+        type: "home",
+        className: "footer_active",
+        title: "首页",
+        pic: "/assets/svg/home.svg",
+        url: "/pages/index/index"
+      },
+      {
+        id: "001",
+        type: "tools",
+        className: "",
+        title: "工具",
+        pic: "/assets/svg/home.svg",
+        url: "/pages/index/index"
+      },
+      {
+        id: "001",
+        title: "发现",
+        type: "explore",
+        className: "",
+        selected: false,
+        pic: "/assets/svg/home.svg",
+        url: "/pages/index/index"
+      },
+      {
+        id: "001",
+        type: "me",
+        className: "",
+        selected: false,
+        title: "我的",
+        pic: "/assets/svg/home.svg",
+        url: "/pages/index/index"
+      }
+    ]
   }
 })

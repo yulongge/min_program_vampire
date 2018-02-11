@@ -1,21 +1,33 @@
 .recommend {
   display: flex;
-  height: 200rpx;
-  line-height: 200rpx;
   text-align: center;
-  border-top: 1px solid #1AAD19;
-  border-left: 1px solid #1AAD19;
-  border-bottom: 1px solid #1AAD19;
-  margin-top: 10rpx;
+  margin-top: 20rpx;
+  /* background: #fff; */
+  color: #333;
 }
 .recommend_item {
   flex: 1;
-  border-right: 1px solid #1AAD19;
+  background: #fff;
+  margin: 10rpx;
+  border-radius: 20rpx;
 }
-
-.recommend:last-child {
-  border-right: 1px solid red;
+.recommend_item_con {
+  background: #fff;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
 }
-.recommend_item:last-chid {
-  border-right: 1px solid red;
+.picImg {
+  width: 100%;
+  height: 160rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+.title {
+  display: block;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
 }

@@ -2,7 +2,9 @@
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{background}}" wx:key="*this">
     <swiper-item>
-      <view class="swiper-item {{item}}"></view>
+      <view class="swiper-item">
+        <image class="swiper-item-image" src="{{item}}" mode="scaleToFill"></image>
+      </view>
     </swiper-item>
   </block>
 </swiper>

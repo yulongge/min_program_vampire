@@ -55,4 +55,8 @@ button:last-child{
 .swiper-item{
   display: block;
   height: 150px;
+  width: 100%;
+}
+.swiper-item-image {
+  width: 100%;
 }

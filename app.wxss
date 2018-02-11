@@ -1,6 +1,12 @@
 /**app.wxss**/
 @import 'weui.wxss';
+html, body {
+  margin: 0;
+  padding: 0;
+}
 .container {
   height: 100%;
+  background: #f6f6f6;
+  color: #fff;
 } 
 @import "/pages/common/footer/footer.wxss";

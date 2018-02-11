@@ -2,6 +2,7 @@
   "navigationBarTitleText": "Vampire",
   "usingComponents": {
     "turntable": "/components/turntable/turntable",
-    "vslider": "/components/vslider/vslider"
+    "vslider": "/components/vslider/vslider",
+    "list": "/components/list/list"
   }
 }

@@ -7,7 +7,11 @@ Component({
     }
   },
   data: {
-    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    background: [
+      'https://yulongge.github.io/images/min_programs/vampire/banner1.jpeg', 
+      'https://yulongge.github.io/images/min_programs/vampire/banner2.jpeg', 
+      'https://yulongge.github.io/images/min_programs/vampire/banner3.jpeg'   
+    ],
     indicatorDots: true,
     vertical: false,
     autoplay: false,

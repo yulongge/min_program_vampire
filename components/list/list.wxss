@@ -1,0 +1,29 @@
+.list {
+  color: #333;
+  padding: 10rpx;
+  margin-bottom: 100rpx;
+}
+.item {
+  background: #fff;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  padding-left: 20rpx;
+  margin-top: 20rpx;
+}
+.pic {
+  width: 200rpx;
+  height: 100rpx;
+}
+.msg {
+  flex: 1;
+  padding-left: 20rpx;
+  font-size: 30rpx;
+}
+.title {
+  display: block;
+}
+.desc {
+  display: block;
+}

@@ -6,13 +6,20 @@
   text-align: center;
   line-height: 98rpx;
   display: flex;
-  border: 1px solid #1AAD19;
+  background-color: #fff;
+  font-size: 24rpx;
 }
 .footer_item {
   flex: 1;
   color: #333;
 }
 .footer_active {
-  background-color: #1AAD19;
-  color: #fff;
+  color: #1AAD19;
+}
+
+.home, .explore, .tool, .me {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #878686;
 }
