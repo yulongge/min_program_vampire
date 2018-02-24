@@ -8,5 +8,5 @@
   </view> -->
   <list datalist="{{homelist}}"></list>
 
-  <template is="footer" data="{{nav}}"/>
+  <template is="footer" data="{{nav: nav, active: 'home'}}"/>
 </view>

@@ -1,0 +1,5 @@
+<import src="../common/footer/footer.wxml" />
+<view>
+Myself
+<template is="footer" data="{{nav: nav, active: 'me'}}"/>
+</view>

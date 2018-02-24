@@ -1,6 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/tool/tool",
+    "pages/explore/explore",
+    "pages/myself/myself",
     "pages/logs/logs",
     "pages/literature/literature",
     "pages/television/television",

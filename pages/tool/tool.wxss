@@ -1,0 +1,11 @@
+.toolList {
+  display: flex;
+  align-items: center;
+}
+.toolItem {
+  flex: 1;
+  height: 200rpx;
+  background: #efefef;
+  margin: 10rpx;
+  text-align: center;
+}

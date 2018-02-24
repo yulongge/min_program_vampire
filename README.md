@@ -281,3 +281,7 @@ rpx（responsive pixel）: 可以根据屏幕宽度进行自适应。规定屏�
   比如："turntable": "../components/turntable/turntable.wxml" 这种写法不对
   要写成: "turntable": "../components/turntable/turntable"
 - 
+
+## icon(svg)的使用
+
+

@@ -1,11 +1,9 @@
 <template name="footer">
   <view class="footer">
     <block wx:for="{{nav}}" wx:key="{{item.id}}">
-      <navigator class="footer_item {{item.className}}" openType="redirect" url="/pages/index/index" hover-class="none">
-        <icon class="{{item.type}}">
-          <image src="{{item.pic}}"></image>
-        </icon>
-        {{item.title}}
+      <navigator class="footer_item {{item.type == active ? 'footer_active' : ''}}" openType="redirect" url="{{item.url}}" hover-class="none">
+          <view class="iconfont {{item.type}}"></view>
+          {{item.title}}
       </navigator>
     </block>
   </view>

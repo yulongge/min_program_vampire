@@ -46,11 +46,11 @@ App({
       },
       {
         id: "001",
-        type: "tools",
+        type: "tool",
         className: "",
         title: "工具",
         pic: "/assets/svg/home.svg",
-        url: "/pages/index/index"
+        url: "/pages/tool/tool"
       },
       {
         id: "001",
@@ -59,7 +59,7 @@ App({
         className: "",
         selected: false,
         pic: "/assets/svg/home.svg",
-        url: "/pages/index/index"
+        url: "/pages/explore/explore"
       },
       {
         id: "001",
@@ -68,7 +68,7 @@ App({
         selected: false,
         title: "我的",
         pic: "/assets/svg/home.svg",
-        url: "/pages/index/index"
+        url: "/pages/myself/myself"
       }
     ]
   }
