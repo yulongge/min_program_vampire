@@ -2,9 +2,9 @@
 <view class="toolContainer">
   <view class="toolList">
     <block wx:for="{{toolList}}" wx:key="{{item.id}}">
-      <view class="toolItem">
-        {{item.name}}
-      </view>
+      <navigator class="toolItem" openType="redirect" url="{{item.url}}" hover-class="none">
+          {{item.name}}
+      </navigator>
     </block>
   </view>
   <template is="footer" data="{{nav: nav, active: 'tool'}}"/>

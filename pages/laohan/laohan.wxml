@@ -1,0 +1,37 @@
+<import src="../common/footer/footer.wxml" />
+<view>
+  <view class='title'>
+    <text>老韩什么时候能发财?</text>
+  </view>
+  <view class='operation'>
+    <view>
+      <input type="number" class="o_input" placeholder="输入金额"    bindinput="moneyInput"/> 
+      <text class="unit">元</text>
+    </view>
+    <view>
+      <input type="number" class="o_input" placeholder="输入天数" bindinput="dayInput"/>
+      <text class="unit">天</text>
+    </view>
+    <view>
+      <input class="o_input" type="number" placeholder="年利率" bindinput="interestInput"/>
+      <text class="unit">%</text>
+    </view>
+
+    <view>
+      <radio-group class="radio-group" bindchange="interestTypeChange">
+        <label class="radio" wx:for="{{interestTypes}}" wx:key="{{item.value}}">
+          <radio value="{{item.value}}" checked="{{item.checked}}"/>{{item.name}}
+        </label>
+      </radio-group>
+    </view>
+    <button class="compute" bindtap="computeMoney">计算</button>
+  </view>
+  <view class="result">
+    <text class="r_item">本金: {{money}}</text>
+    <text class="r_item">年利率: {{yearInterest * 100}} %</text>
+    <text class="r_item">盈利: {{getMoney}}</text>
+    <text class="r_item">总资产: {{sumMoney}}</text>
+  </view>
+
+<template is="footer" data="{{nav: nav, active: 'tool'}}"/>
+</view>

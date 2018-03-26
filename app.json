@@ -7,7 +7,9 @@
     "pages/logs/logs",
     "pages/literature/literature",
     "pages/television/television",
-    "pages/music/music"
+    "pages/music/music",
+    "pages/laohan/laohan"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,0 +1,55 @@
+.title {
+  text-align: center;
+  padding: 50rpx;
+}
+.operation {
+  text-align: center;
+}
+
+.o_input {
+  display: inline-block;
+  border: 1px solid #efefef;
+  overflow: inherit;
+  width: 300rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+}
+
+.unit {
+  color: #1AAD19;
+  margin-left: 20rpx;
+}
+
+.radio-group {
+  margin-top: 20rpx;
+}
+
+.radio {
+  margin-right: 10rpx;
+}
+
+.compute {
+  width: 360rpx;
+  margin-top: 40rpx;
+  background: #1AAD19;
+  color: #fff;
+}
+
+.result {
+  width: 100%;
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.r_item {
+  display: block;
+  text-align: left;
+  font-size: 36rpx;
+  color: #1AAD19;
+  width: 300rpx;
+  margin: auto;
+}

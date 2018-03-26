@@ -8,4 +8,5 @@
   background: #efefef;
   margin: 10rpx;
   text-align: center;
+  min-width: 100rpx;
 }
