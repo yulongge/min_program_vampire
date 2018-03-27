@@ -1,5 +1,10 @@
 <import src="../common/footer/footer.wxml" />
-<view class="music">
-  music
+<view class="television">
+  <block wx:for="{{list}}" wx:key="{{item.id}}">
+    <view class="item">
+     <audio class="itemMusic" poster="{{item.poster}}" name="{{item.name}}" author="{{item.author}}" src="{{item.src}}" id="{{item.id}}" controls loop></audio>
+
+    </view>
+  </block>
 </view>
 <template is="footer" />

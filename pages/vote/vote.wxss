@@ -1,0 +1,5 @@
+/* pages/vote/vote.wxss */
+.pro1 {
+  margin: 10rpx;
+  margin-top: 50rpx;
+}

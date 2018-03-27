@@ -1,5 +1,9 @@
 <import src="../common/footer/footer.wxml" />
 <view class="television">
-  television
+  <block wx:for="{{list}}" wx:key="{{item.id}}">
+    <view class="item">
+      <video class="itemVideo" src="{{item.src}}"   controls ></video>
+    </view>
+  </block>
 </view>
 <template is="footer" />

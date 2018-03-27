@@ -9,7 +9,7 @@ Page({
         name: '投票',
         icon: "",
         desc: "投票啊",
-        url: "/pages/literature/literature"
+        url: "/pages/vote/vote"
       },
       {
         id: "002",

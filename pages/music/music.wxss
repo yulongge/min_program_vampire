@@ -1,0 +1,6 @@
+.item {
+  text-align: center;
+}
+.itemMusic {
+  width: 100%;
+}

@@ -9,7 +9,8 @@
     "pages/television/television",
     "pages/music/music",
     "pages/laohan/laohan",
-    "pages/exploredetail/exploredetail"
+    "pages/exploredetail/exploredetail",
+    "pages/vote/vote"
     
   ],
   "window":{

@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
@@ -54,6 +54,24 @@
 					"id": -1,
 					"name": "myself",
 					"pathName": "pages/myself/myself",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "literature",
+					"pathName": "pages/literature/literature",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "television",
+					"pathName": "pages/television/television",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "music",
+					"pathName": "pages/music/music",
 					"query": ""
 				}
 			]

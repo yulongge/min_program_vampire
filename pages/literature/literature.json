@@ -1,3 +1,8 @@
 {
-  
+  "navigationBarTitleText": "文学",
+  "usingComponents": {
+    "turntable": "/components/turntable/turntable",
+    "vslider": "/components/vslider/vslider",
+    "list": "/components/list/list"
+  }
 }
