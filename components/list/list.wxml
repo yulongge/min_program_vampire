@@ -1,12 +1,12 @@
 <view class="list">
   <block wx:for="{{datalist}}" wx:key="{{item.id}}">
-     <view class="item">
+     <navigator class="item" url="{{item.url}}">
       <image class="pic" src="{{item.pic}}"></image>
       <view class="msg">
         <text class="title">{{item.title}}</text>
         <text class="desc">{{item.desc}}</text>
       </view>
-    </view>
+    </navigator>
   </block>
 </view>
 <slot></slot>

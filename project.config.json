@@ -21,6 +21,10 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
@@ -37,7 +41,20 @@
 				{
 					"id": -1,
 					"name": "laohan",
-					"pathName": "pages/laohan/laohan"
+					"pathName": "pages/laohan/laohan",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "explore",
+					"pathName": "pages/explore/explore",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myself",
+					"pathName": "pages/myself/myself",
+					"query": ""
 				}
 			]
 		}

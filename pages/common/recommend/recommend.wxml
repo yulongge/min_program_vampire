@@ -1,7 +1,7 @@
 <template name="recommend">
   <view class="recommend">
     <block wx:for="{{recommends}}" wx:key="{{item.id}}">
-      <navigator class="recommend_item" openType="redirect" url="{{item.url}}" hover-class="none">
+      <navigator class="recommend_item" url="{{item.url}}" hover-class="none">
         <view class="recommend_item_con">
           <image class="picImg" src="{{item.pic}}"></image>
           <text class="title">{{item.title}}</text>

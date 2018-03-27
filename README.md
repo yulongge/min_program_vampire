@@ -284,4 +284,58 @@ rpx（responsive pixel）: 可以根据屏幕宽度进行自适应。规定屏�
 
 ## icon(svg)的使用
 
+## 开放的能力
+
+### web-view
+
+1. 个人类型与海外类型的小程序暂不支持使用。
+
+2. js-sdk接口限制（具体请参考 官方api ）。
+
+3. 每个页面只能有一个< web-view />。
+
+4. 最多可以添加20个业务域名。
+
+5. 一年只可修改50次业务域名。
+
+```html
+<!-- wxml -->
+<!-- 指向微信公众平台首页的web-view -->
+<web-view src="https://mp.weixin.qq.com/"></web-view>
+```
+
+#### Bug & Tip
+
+- 网页内iframe的域名也需要配置到域名白名单。
+- 开发者工具上，可以在 <web-view/> 组件上通过右键 - 调试，打开 <web-view/> 组件的调试。
+- 每个页面只能有一个<web-view/>，<web-view/>会自动铺满整个页面，并覆盖其他组件。
+- <web-view/>网页与小程序之间不支持除JSSDK提供的接口之外的通信。
+- 在iOS中，若存在JSSDK接口调用无响应的情况，可在<web-view/>的src后面加个#wechat_redirect解决。
+
+### open-data
+
+可能在群的时候才能用
+
+### 小程序的生命周期
+
+```js
+App({
+  onLaunch: function(options) {
+    // Do something initial when launch.
+  },
+  onShow: function(options) {
+      // Do something when show.
+  },
+  onHide: function() {
+      // Do something when hide.
+  },
+  onError: function(msg) {
+    console.log(msg)
+  },
+  globalData: 'I am global data'
+})
+```
+
+
+
 

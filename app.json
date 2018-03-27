@@ -8,7 +8,8 @@
     "pages/literature/literature",
     "pages/television/television",
     "pages/music/music",
-    "pages/laohan/laohan"
+    "pages/laohan/laohan",
+    "pages/exploredetail/exploredetail"
     
   ],
   "window":{

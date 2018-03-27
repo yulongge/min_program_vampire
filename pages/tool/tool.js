@@ -2,6 +2,7 @@ let app = getApp();
 Page({
   data: {
     nav: app.globalData.nav,
+    userInfo: app.globalData.userInfo,
     toolList: [
       {
         id: "001",
@@ -19,11 +20,26 @@ Page({
       },
       {
         id: "003",
-        name: '大韩算钱',
+        name: '大韩',
+        icon: "",
+        desc: "算利息啊",
+        url: "/pages/laohan/laohan"
+      },
+      {
+        id: "004",
+        name: '石头剪子布',
         icon: "",
         desc: "算利息啊",
         url: "/pages/laohan/laohan"
       }
     ]
+  },
+  onLoad: function () {
+    let _this = this;
+    app.getUserInfo(function (userInfo) {
+      _this.setData({
+        userInfo: userInfo
+      })
+    });
   }
 })

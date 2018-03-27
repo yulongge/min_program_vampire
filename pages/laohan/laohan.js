@@ -2,6 +2,7 @@ let app = getApp();
 Page({
   data: {
     nav: app.globalData.nav,
+    userInfo: app.globalData.userInfo,
     interestTypes: [
       { name: '普通', value: '1', checked: 'true' },
       { name: '复利', value: '2' },
@@ -11,8 +12,16 @@ Page({
     day: 0,
     getMoney: 0,
     sumMoney: 0,
-    yearInterest: 0.05,
+    yearInterest: 5,
     dayInterest: Number(0.05/365).toFixed(6),
+  },
+  onLoad: function () {
+    let _this = this;
+    app.getUserInfo(function (userInfo) {
+      _this.setData({
+        userInfo: userInfo
+      })
+    });
   },
   moneyInput: function(e) {
     this.setData({
@@ -63,8 +72,8 @@ Page({
     })
   },
   interestInput: function(e) {
-    let yearInterest = Number(e.detail.value) / 100;
-    let dayInterest = Number(yearInterest / 365).toFixed(6);
+    let yearInterest = Number(e.detail.value);
+    let dayInterest = Number(yearInterest / 36500).toFixed(6);
     this.setData({
       yearInterest: yearInterest,
       dayInterest: dayInterest

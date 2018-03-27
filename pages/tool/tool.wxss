@@ -1,12 +1,19 @@
 .toolList {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
 }
 .toolItem {
-  flex: 1;
-  height: 200rpx;
-  background: #efefef;
-  margin: 10rpx;
   text-align: center;
-  min-width: 100rpx;
+  padding: 80rpx;
+  box-sizing: border-box;
+  border: 1px solid #1AAD19;
+  margin: 5rpx;
+  border-radius: 10rpx;
+}
+.toolItemCon {
+  background: #efefef;
+  width: 100%;
 }
