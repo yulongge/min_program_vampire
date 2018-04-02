@@ -1,11 +1,15 @@
-<import src="../common/footer/footer.wxml" />
+<import src="../common/nav/nav.wxml" />
 <view class="toolContainer">
   <view class="toolList">
-    <block wx:for="{{toolList}}" wx:key="{{item.id}}">
-      <navigator class="toolItem" url="{{item.url}}" hover-class="none">
-          {{item.name}}
-      </navigator>
-    </block>
+    <view class="weui-grids">
+        <block wx:for="{{toolList}}" wx:key="*this">
+            <navigator url="{{item.url}}" class="weui-grid">
+                <image class="weui-grid__icon" src="{{item.pic}}" />
+                <view class="weui-grid__label">{{item.name}}</view>
+            </navigator>
+        </block>
+    </view>
   </view>
-  <template is="footer" data="{{nav: nav, active: 'tool'}}"/>
+  
+  <template is="nav" data="{{nav: nav, active: 'tool'}}"/>
 </view>

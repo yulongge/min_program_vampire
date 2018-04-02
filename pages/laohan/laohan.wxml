@@ -1,5 +1,5 @@
 <import src="../common/footer/footer.wxml" />
-<view>
+<view class="laohan">
   <view class="container">
    <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>

@@ -8,4 +8,25 @@
   color: #353535;
   font-size: 30rpx;
 }
+
+.weui-search-bar {
+  background: #fff;
+  border: none;
+}
+.weui-search-bar__form {
+  border: 1px solid #1AAD19;
+}
+
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1rpx solid #1AAD19;
+    /* background-color: #1AAD19; */
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #1AAD19;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
 @import "/pages/common/recommend/recommend.wxss";

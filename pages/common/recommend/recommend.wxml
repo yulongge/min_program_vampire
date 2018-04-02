@@ -3,7 +3,8 @@
     <block wx:for="{{recommends}}" wx:key="{{item.id}}">
       <navigator class="recommend_item" url="{{item.url}}" hover-class="none">
         <view class="recommend_item_con">
-          <image class="picImg" src="{{item.pic}}"></image>
+          <!-- <image class="picImg" src="{{item.pic}}"></image> -->
+          <view class="picImg"></view>
           <text class="title">{{item.title}}</text>
         </view>
       </navigator>

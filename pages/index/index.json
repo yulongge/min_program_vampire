@@ -3,6 +3,7 @@
   "usingComponents": {
     "turntable": "/components/turntable/turntable",
     "vslider": "/components/vslider/vslider",
-    "list": "/components/list/list"
+    "list": "/components/list/list",
+    "searchbar": "/components/searchbar/searchbar"
   }
 }

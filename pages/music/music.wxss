@@ -1,3 +1,6 @@
+.music {
+  margin-top: 180rpx;
+}
 .item {
   text-align: center;
 }

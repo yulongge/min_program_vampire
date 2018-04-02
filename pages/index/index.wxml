@@ -1,12 +1,12 @@
+<import src="../common/nav/nav.wxml" />
 <import src="../common/footer/footer.wxml" />
-<import src="../common/recommend/recommend.wxml" />
+<import src="../common/index/label.wxml" />
+<import src="../common/index/searchbar.wxml" />
 <view class="container">
   <vslider class="swiper"></vslider>
-  <template is="recommend" data="{{recommends}}"/>
-  <!-- <view class="gskill">
-    <turntable inner-text="{{userInfo.nickName}}"></turntable>
-  </view> -->
-  <list datalist="{{homelist}}"></list>
-
-  <template is="footer" data="{{nav: nav, active: 'home'}}"/>
+  <template is="searchbar" />
+  <list class="explorelist" datalist="{{explorelist}}"></list>
+  <!-- <template is="label" /> -->
+  <template is="footer" />
+  <template is="nav" data="{{nav: nav, active: 'home'}}"/>
 </view>

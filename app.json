@@ -10,13 +10,15 @@
     "pages/music/music",
     "pages/laohan/laohan",
     "pages/exploredetail/exploredetail",
-    "pages/vote/vote"
-    
+    "pages/vote/vote",
+    "pages/camera/camera"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
+  },
+  "debug": false
 }

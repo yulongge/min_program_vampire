@@ -1,10 +1,11 @@
 <template name="footer">
   <view class="footer">
-    <block wx:for="{{nav}}" wx:key="{{item.id}}">
-      <navigator class="footer_item {{item.type == active ? 'footer_active' : ''}}" openType="redirect" url="{{item.url}}" hover-class="none">
-          <view class="iconfont {{item.type}}"></view>
-          {{item.title}}
-      </navigator>
-    </block>
+   <view class="weui-footer">
+        <view class="weui-footer__links">
+            <navigator url="" class="weui-footer__link">vampire</navigator>
+            <navigator url="" class="weui-footer__link">geyulong</navigator>
+        </view>
+        <view class="weui-footer__text">Copyright © 2008-2016 yulongge.io</view>
+    </view>
   </view>
 </template>

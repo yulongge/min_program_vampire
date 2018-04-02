@@ -1,0 +1,47 @@
+  <template name="label">
+  <view class="label">
+    <view class="">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">book</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">entertainment</view></view>
+            <view class="weui-flex__item"><view class="placeholder">movie</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">culture</view></view>
+            <view class="weui-flex__item"><view class="placeholder">music</view></view>
+            <view class="weui-flex__item"><view class="placeholder">story</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">Appliance</view></view>
+            <view class="weui-flex__item"><view class="placeholder">digital</view></view>
+            <view class="weui-flex__item"><view class="placeholder">travel</view></view>
+            <view class="weui-flex__item"><view class="placeholder">movie</view></view>
+        </view>
+        <view class="weui-flex">
+            <view><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">work</view></view>
+            <view><view class="placeholder">weui</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">sql</view></view>
+            <view class="weui-flex__item"><view class="placeholder">webpack</view></view>
+            <view class="weui-flex__item"><view class="placeholder">node</view></view>
+            <view class="weui-flex__item"><view class="placeholder">php</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">ruby</view></view>
+            <view class="weui-flex__item"><view class="placeholder">Java</view></view>
+            <view class="weui-flex__item"><view class="placeholder">JavaScript</view></view>
+        </view>
+         <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">code</view></view>
+            <view class="weui-flex__item"><view class="placeholder">poem</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+        </view>
+    </view>
+</view>
+</template>

@@ -6,7 +6,12 @@ html, body {
 }
 .container {
   height: 100%;
-  background: #f6f6f6;
+  background: #fff;
   color: #fff;
 } 
+.footer {
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+}
+@import "/pages/common/nav/nav.wxss";
 @import "/pages/common/footer/footer.wxss";

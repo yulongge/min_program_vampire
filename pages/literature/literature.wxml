@@ -1,5 +1,4 @@
-<import src="../common/footer/footer.wxml" />
-<view>
+<import src="../common/nav/nav.wxml" /><view>
 <list datalist="{{explorelist}}"></list>
-<template is="footer" data="{{nav: nav, active: 'explore'}}"/>
+<template is="nav" data="{{nav: nav, active: 'explore'}}"/>
 </view>

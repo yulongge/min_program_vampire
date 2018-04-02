@@ -1,0 +1,10 @@
+<template name="nav">
+  <view class="nav">
+    <block wx:for="{{nav}}" wx:key="{{item.id}}">
+      <navigator class="nav_item {{item.type == active ? 'nav_active' : ''}}" openType="redirect" url="{{item.url}}" hover-class="none">
+          <view class="iconfont {{item.type}}"></view>
+          {{item.title}}
+      </navigator>
+    </block>
+  </view>
+</template>

@@ -73,6 +73,12 @@
 					"name": "music",
 					"pathName": "pages/music/music",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "camera",
+					"pathName": "pages/camera/camera",
+					"query": ""
 				}
 			]
 		}

@@ -1,0 +1,19 @@
+.explorepage {
+  margin-top: 160rpx;
+}
+.explorelist {
+  margin-bottom: 100rpx;
+}
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1rpx solid #1AAD19;
+    /* background-color: #1AAD19; */
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #1AAD19;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+@import "/pages/common/recommend/recommend.wxss";

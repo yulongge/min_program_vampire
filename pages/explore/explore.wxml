@@ -1,5 +1,9 @@
-<import src="../common/footer/footer.wxml" />
-<view>
-<list datalist="{{explorelist}}"></list>
-<template is="footer" data="{{nav: nav, active: 'explore'}}"/>
+<import src="../common/nav/nav.wxml" />
+<import src="../common/recommend/recommend.wxml" />
+<import src="../common/index/label.wxml" />
+<view class="explorepage">
+  <template is="recommend" data="{{recommends}}"/>
+  <template is="label" />
+  <!-- <list class="explorelist" datalist="{{explorelist}}"></list> -->
+  <template is="nav" data="{{nav: nav, active: 'explore'}}"/>
 </view>

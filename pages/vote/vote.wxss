@@ -1,4 +1,7 @@
 /* pages/vote/vote.wxss */
+.vote {
+  margin-top: 200rpx;
+}
 .pro1 {
   margin: 10rpx;
   margin-top: 50rpx;

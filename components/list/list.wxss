@@ -1,3 +1,4 @@
+@import '../../weui.wxss';
 .list {
   color: #333;
   padding: 10rpx;
@@ -15,6 +16,7 @@
 .pic {
   width: 200rpx;
   height: 100rpx;
+  border: 1rpx solid #1AAD19;
 }
 .msg {
   flex: 1;
@@ -26,4 +28,13 @@
 }
 .desc {
   display: block;
+}
+.weui-panel__hd {
+  color: #1AAD19;
+}
+.weui-media-box__thumb {
+  border: 1px solid #1AAD19;
+}
+.weui-cell_link {
+  color: #1AAD19;
 }

@@ -1,19 +1,14 @@
 .toolList {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: space-around;
+  margin-top: 180rpx;
 }
-.toolItem {
-  text-align: center;
-  padding: 80rpx;
-  box-sizing: border-box;
-  border: 1px solid #1AAD19;
-  margin: 5rpx;
-  border-radius: 10rpx;
+.weui-grids {
+  border-top:1rpx solid #1AAD19;
+  border-left:1rpx solid #1AAD19;
 }
-.toolItemCon {
-  background: #efefef;
-  width: 100%;
+.weui-grid {
+  border-right:1rpx solid #1AAD19;
+  border-bottom:1rpx solid #1AAD19;
+}
+.weui-grid__label {
+  color: #1AAD19;
 }

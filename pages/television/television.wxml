@@ -1,4 +1,3 @@
-<import src="../common/footer/footer.wxml" />
 <view class="television">
   <block wx:for="{{list}}" wx:key="{{item.id}}">
     <view class="item">
@@ -6,4 +5,3 @@
     </view>
   </block>
 </view>
-<template is="footer" />
