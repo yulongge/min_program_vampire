@@ -1,0 +1,11 @@
+/* pages/identify/identify.wxss */
+.identify {
+	margin-top: 100rpx;
+	width: 100%;
+	text-align: center;
+}
+.code {
+	width: 400rpx;
+	height: 400rpx;
+	margin-top: 100rpx;
+}

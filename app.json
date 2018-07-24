@@ -11,7 +11,9 @@
     "pages/laohan/laohan",
     "pages/exploredetail/exploredetail",
     "pages/vote/vote",
-    "pages/camera/camera"
+    "pages/camera/camera",
+    "pages/game/game",
+    "pages/identify/identify"
   ],
   "window":{
     "backgroundTextStyle":"light",

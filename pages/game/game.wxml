@@ -1,0 +1,13 @@
+
+<view class="bike">
+  <view class="shadow"></view>
+  <view class="wheel"></view>
+  <view class="wheel"></view>
+  <view class="frame"></view>
+  <view class="pedal"></view>
+  <view class="pedal"></view>
+  <view class="light"></view>
+  <view class="crate"></view>
+  <view class="seat"> </view>
+  <view class="handlebar"></view>
+</view>

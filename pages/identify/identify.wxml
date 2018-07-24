@@ -1,0 +1,6 @@
+
+<view class="identify">
+	<image class="code" bindtap="previewImg" src="https://yulongge.github.io/images/min_programs/vampire/code.jpg"/>
+
+	<image class="code" bindtap="previewQImg" src="https://yulongge.github.io/images/min_programs/vampire/wxdc.png"/>
+</view>
